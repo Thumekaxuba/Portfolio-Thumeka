@@ -1,0 +1,21 @@
+*{
+  background-color: rgb(185, 156, 156);
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.logo-name{
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+}
