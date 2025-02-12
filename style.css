@@ -1,21 +1,35 @@
-*{
-  background-color: rgb(185, 156, 156);
-  font-family: sans-serif;
-  margin: 20px;
+/* Header */
+header {
+  background-color: #81d4fa; /* Light blue background */
+  padding: 20px 40px; /* Add padding for spacing */
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Align the title to the left and nav links to the right */
+  align-items: center; /* Vertically center the title and nav links */
+  width: 100%;
 }
 
-.logo-name{
-  color: black;
-  font-weight: bold;
-  font-size: 45px;
+header h1 {
+  font-size: 2.5em;
+  color: #0277bd; /* Dark blue for the title */
+  margin: 0; /* Remove margin */
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
+header nav ul {
+  display: flex; /* Arrange nav items in a row */
+  list-style-type: none; /* Remove default list styling */
+  margin: 0; /* Remove margin */
 }
 
-nav li{
-  list-style: none;
-  display: inline;
+header nav ul li {
+  margin: 0 15px; /* Space out the nav items */
+}
+
+header nav ul li a {
+  font-size: 1.2em;
+  color: #0277bd; /* Dark blue for the links */
+  text-decoration: none; /* Remove underline */
+}
+
+header nav ul li a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }
