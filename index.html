@@ -1,94 +1,163 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  <nav>
-<h1 class="logo-name">Thumeka Xuba</h1>
-<ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">skills</a></li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Contact Me</a></li>
-</ul>
-  </nav>
-<div>
-  <header>
+<b lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Software Developer | Responsive Portfolio</title>
+  </head>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Thumeka</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  </header>
-</div>
+<!-- Hero Section -->
+<section id="home" class="section">
+  <div class="section__container">
+    <div class="content">
+      <p class="subtitle">HELLO</p>
+      <h1 class="title">I'm <span>Thumeka Xuba<br /></span> Software Developer</h1>
 
-<h1 class="tittle">
-  Hi, I am<span>Thumeka Xuba</span><br> Software Developer
-</h1>
-
- <p></p>Welcome to my software developer portfolio,<br>I am Thumeka xuba a skilled creative software developer <br> with a strong passion for learning and building innovative software solution
-<section>
-
-</section id>
-<h2>skills</h2>
-<ul>
-  <li>SQL</li>
-  <LI>JAVASCRIPT</LI>
-  <LI>HTML</LI>
-</ul>
-<Section>
-
-</Section id="contact" class="contact-form">
-<h2>contact me</h2>
-<form action="thumekaxuba433@gmail.com"method="post"enctype= "text/plain">
-  
-</form>
-<div class="action_btns">
-</div>
-  <button class="portfolio">Portfolio</button>
-</div>
-<DIV>
- <div class="image">
-  <img src="assets/profile.jpg" alt="profile">
- </div>
-</DIV>
-<section>
-
-</section id= "Contact" class="section">
-<h2>Contact</h2>
- <form id="contact-form">
-
-
- </form>
-  <label for="name">Name</label>
-  <input type="text" id="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email"required>
-
-  <label for="message">Message</label>
-  <textarea id="message"required></textarea>
-
-  <button type="submit">Send</button>
-  </form>
-  <p id="responseMessage"></p>
-  </SECTIon>
-
-
-  <FOoter>
-    <P>Thank you for visiting my portfolio</P>
-  </FOoter>
-  <div class="footer icontop">
-    <a href="#home"></a>
+      <p class="description">
+        Welcome to my Software Developer Portfolio! I am Thumeka Xuba, a skilled and
+        creative Software Developer with a passion for creating beautiful,
+        responsive, and user-friendly websites.
+      </p>
+    </div>
   </div>
+</section>
+</section>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h2 class="title">ABOUT ME</h2>
+          <p class="description">
+            Hello! I'm Thumeka Xuba, a passionate Software Developer specializing in front-end and back-end development.
+            I love solving problems and creating innovative solutions that make a difference. With expertise in various 
+            programming languages and frameworks, I am always eager to learn and grow in the ever-evolving tech industry.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <script src="Script.js"></script>
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h2 class="title">Education</h2>
+          <p><strong>Walter Sisulu University | 2017 - 2021</strong></p>
+          <p>National Diploma in Information Technology</p>
+          <p><strong>Gobinamba Tech & Commercial SSS | 2010</strong></p>
+          <p>National Senior Certificate</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="section__container">
+        <div class="content">
+          <h2 class="title">Experience</h2>
+          <div class="resume_item">
+            <p>ICT Intern - Walter Sisulu University (2022)</p>
+            <p class="description">
+              As an ICT Intern at Walter Sisulu University, I gained hands-on experience in IT support, troubleshooting hardware and software issues, and assisting with network infrastructure maintenance.
+              I collaborated with the IT team to enhance security measures, manage user accounts, and develop internal software solutions to improve data management.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Skills Section -->
+<section id="skills" class="section">
+  <div class="section__container">
+    <h2 class="title">SKILLS</h2> <!-- Title at the top -->
+
+    <div class="skills-grid">
+      <div class="skill-item">
+        <i class="fab fa-js-square"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-item">
+        <i class="fas fa-database"></i>
+        <span>SQL</span>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-html5"></i>
+        <span>HTML</span>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-java"></i>
+        <span>Java</span>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-php"></i>
+        <span>PHP</span>
+      </div>
+      <div class="skill-item">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 
+<!-- Chatbot Section -->
+<section id="chatbot" class="section">
+  <div class="chatbot-icon" onclick="toggleChatbot()">
+    <i class="fas fa-comments"></i>
+  </div>
+  <div class="chatbot-container" id="chatbotContainer">
+    <div class="chatbot-header">
+      <span>Chat with me!</span>
+      <button onclick="toggleChatbot()">&times;</button>
+    </div>
+    <div class="chatbot-body" id="chatbotBody">
+      <p>Hi! How can I assist you today?</p>
+    </div>
+    <div class="chatbot-footer">
+      <input type="text" id="chatbotInput" placeholder="Type a message..." onkeypress="handleKeyPress(event)">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</section>
 
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="social-media">
+    <a href="mailto:thumekaxuba433@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/thumekaxuba" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/thumekaxuba" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.facebook.com/thumekaxuba" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+</section>
+<script src="script.js"></script>
 
+  </body>
+</html>
 
-
-
- 
 
